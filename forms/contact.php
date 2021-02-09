@@ -19,8 +19,7 @@
   $mil = "Name - ".$nm." E-mail - ".$em." Message - ".$ms." ";
   $contact->Body = $mil;
   $contact->AddAddress(''au17.tech@gmail.com');
-  $contact->AddAddress(''ay3815459@gmail.com');
-  $contact->AddAddress('parthkarmur2000@gmail.com');
+
   
 
   echo $contact->Send();
